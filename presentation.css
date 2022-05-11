@@ -1,0 +1,388 @@
+/*********************************************************
+ * Define Colors, Background Images and Fonts.
+ *********************************************************/
+
+/*********************************************************
+ * General
+ *********************************************************/
+body,#container {
+	color: #333333;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.defaultBorder {
+	border-color: #000;
+}
+
+#innerBorder {
+	background-color: #FFF;
+}
+
+#browserNotSupported,#enableJavascript {
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffe590),
+		to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #ffe590, #FFFFFF);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe590',
+		endColorstr='#FFFFFF' );
+	border: 1px solid #D29201;
+}
+
+#browserNotSupported .warning,#enableJavascript .warning {
+	background: url("https://raw.githubusercontent.com/TmoUP/tmobile-eit/main/alertIcon_20x20.html") repeat scroll 0 0
+		transparent
+}
+
+#organizationUnit.switchAccount {
+	background-color: #2D4A80;
+}
+
+#organizationUnit {
+	background-color: #343434;
+}
+
+#organizationUnit a {
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+}
+
+#organizationTitle {
+	color: #FFFFFF;
+}
+
+#switchOrgIcon {
+	border: 0;
+}
+
+#searchForm input[type="button"] {
+	background: url("https://raw.githubusercontent.com/TmoUP/tmobile-eit/main/searchButton.html") no-repeat scroll 0 0
+		transparent;
+	border: medium none;
+	cursor: pointer;
+}
+
+.sortGradient li {
+	background: url("https://raw.githubusercontent.com/TmoUP/tmobile-eit/main/sortGradient.html") repeat-x scroll 0 0
+		transparent;
+}
+
+input.toggleLink {
+	background: url("https://raw.githubusercontent.com/TmoUP/tmobile-eit/main/toggleDown.html") no-repeat scroll 0 0
+		transparent;
+	border: medium none;
+	cursor: pointer;
+}
+
+a.toggleLink,a.toggleLink:link,a.toggleLink:visited,a.toggleLink:hover {
+	color: #333333;
+}
+
+.disabled a.toggleLink,.disabled a.toggleLink:link,.disabled a.toggleLink:visited,.disabled a.toggleLink:hover
+	{
+	color: #999999;
+}
+
+.filterLabelColor,.hasPlaceholder {
+	color: #999999;
+}
+
+a:link,a:visited,a:hover {
+	color: #de5900;
+}
+
+#header {
+	
+}
+
+#header a:link,#header a:visited,#header a:hover {
+	color: #de5900;
+}
+
+#header #organizationUnitWrapper,#header #topContainerBorder {
+	background-color: #525252;
+}
+
+#userProfile a {
+	color: #333333;
+}
+
+#header #userProfileImage {
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#header .userProfileBackground {
+	background: none repeat scroll 0 0 #DFDFDF;
+}
+
+#header #breadcrumb li a,#header #breadcrumb li a:hover {
+	color: #de5900;
+}
+
+#header #breadcrumb li a:last-child,#header #breadcrumb li:last-child a,#header #breadcrumb li:last-child a:hover
+	{
+	color: #333333;
+}
+
+#links #linkshead {
+	background: url("https://github.com/TmoUP/tmobile-eit/raw/main/menu-head-bg.png") repeat-x scroll 0 0
+		transparent;
+	color: #FFFFFF;
+	float: left;
+	margin-bottom: 5px;
+	text-align: center;
+	width: 200px;
+	height: 26px;
+	line-height: 26px;
+}
+
+#header #dropdownMenu {
+	border: 1px solid #DFDFDF;
+}
+
+#header #userProfileDropdown #wrapper div {
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#header #dropdownMenu #wrapper div:last-child {
+	border: medium none;
+}
+
+#header #dropdownMenu #wrapper a,#header #dropdownMenu #wrapper a:hover,#header #dropdownMenu #wrapper a:visited
+	{
+	color: #de5900;
+}
+
+#loggedInHeader {
+	background: url("https://github.com/TmoUP/tmobile-eit/raw/main/menu_bar_bg.png") repeat-x scroll 0 0
+		transparent;
+	height: 2px;
+	left: 0;
+	overflow: hidden;
+}
+
+.nav {
+	background: url("https://github.com/TmoUP/tmobile-eit/raw/main/menu_bar_bg.png") repeat-x scroll 0 0
+		transparent;
+}
+
+
+#content {
+	background: none repeat scroll 0 0 #FFFFFF;
+}
+
+.footer {
+	border-top: 2px solid #FDB611;
+}
+
+.footer .innerfooter {
+}
+
+.footer a:link,.footer a:visited,.footer a:hover {
+	color: #de5900 !important;
+}
+
+#content.authLayout {
+}
+
+#loginFormContainer .secCodeBox,#loginFormContainer .loginFormBox,#loginFormContainer .secondOTPBox,#loginFormContainer .logoutBox,#loginFormContainer .credentialBox
+{
+    background: linear-gradient(to bottom, #EEEEEE, #FFFFFF) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border:1px solid #000;
+}
+
+.maxDivWidth{
+	width: 940px;
+	margin:auto;
+}
+
+#loginFormContainer .loginFormHeader {
+	background-color: #181818;
+	background: url("https://github.com/TmoUP/tmobile-eit/raw/main/overlayTitleBackground.png") repeat-x scroll
+		0 0/100% auto transparent;
+}
+
+#loginFormContainer .loginFormDivider {
+	background: url("https://github.com/TmoUP/tmobile-eit/raw/main/signInDottedLine.png") no-repeat scroll 0 0
+		transparent;
+}
+
+p {
+	line-height: 17px;
+	padding-bottom: 15px;
+	margin: 0px;
+}
+
+.pageTitle {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 5px;
+}
+
+.primary,.primaryLdap,.primaryDisabled,.primaryFormBtn,.ui-button .ui-widget .ui-state-default .ui-corner-all .ui-button-text-only
+	{
+	background-color: #FFB221 !important;
+	background: -moz-linear-gradient(center top, #FEE188, #FFB221) repeat
+		scroll 0 0 transparent !important;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEE188),
+		to(#FFB221) ) !important;
+	background: -webkit-linear-gradient(center top, #FEE188, #FFB221) repeat
+		scroll 0 0 transparent !important;
+	background: -ms-linear-gradient(center top, #FEE188, #FFB221) repeat
+		scroll 0 0 transparent !important;
+	background: -o-linear-gradient(center top, #FEE188, #FFB221) repeat
+		scroll 0 0 transparent !important;
+	border: 1px solid #D29201 !important;
+	color: #333333 !important;
+	font-weight: bold !important;
+	height: 28px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-radius: 4px !important;
+}
+
+.primaryLdap {
+	margin-right: 10px;
+	float: left;
+}
+
+.primaryDisabled {
+	opacity: 0.5 !important;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.secondary,.secondaryFormBtn {
+	background: -moz-linear-gradient(center top, #EDEDED, #A5A5A5) repeat
+		scroll 0 0 transparent !important;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EDEDED),
+		to(#A5A5A5) ) !important;
+	background: -webkit-linear-gradient(center top, #EDEDED, #A5A5A5) repeat
+		scroll 0 0 transparent !important;
+	background: -ms-linear-gradient(center top, #EDEDED, #A5A5A5) repeat
+		scroll 0 0 transparent !important;
+	background: -o-linear-gradient(center top, #EDEDED, #A5A5A5) repeat
+		scroll 0 0 transparent !important;
+	border: 1px solid #888888 !important;
+	color: #333333 !important;
+	font-weight: bold !important;
+	height: 28px;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	border-radius: 4px !important;
+	margin-right: 10px !important;
+}
+
+.primaryFormBtn {
+	height: 22px;
+	vertical-align: bottom;
+}
+
+.secondaryFormBtn {
+	height: 22px !important;
+}
+
+.center {
+	text-align: center;
+	background-color: #fff6bf;
+	border: 1px solid #fceb77;
+	padding: 10px 10px 15px 10px;
+}
+
+#linearBg2 { /* fallback */
+	background-color: #1a82f7;
+	background: url(https://raw.githubusercontent.com/TmoUP/tmobile-eit/main/linear_bg_2.html);
+	background-repeat: repeat-x; /* Safari 5.1, Chrome 10+ */
+/* Firefox 3.6+ */
+
+	/* IE 10 */
+
+	/* Opera 11.10+ */
+}
+
+button {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#mainbody .pageTitle {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px 0px 15px 0px;
+}
+
+#mainbody .pageInstructions {
+	padding-right: 12px;
+}
+
+.pageInstructionsQuery {
+	padding: 0px 3px 15px 15px;
+}
+
+button.primary:focus, .primary:hover {
+    background: -moz-linear-gradient(center top , #FFB221, #FEE188) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	text-decoration: none;
+}
+
+.primary:focus, .primary:hover {
+    background: -moz-linear-gradient(center top , #FFB221, #FEE188) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+	text-decoration: none;
+}
+
+#successMessagingComponent, #errorMessagingComponent, #ajaxMessagingComponent, #overlayMessagingComponent {
+    margin-bottom: 5px;
+    min-height: 20px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#successMessagingComponent, #errorMessagingComponent, #ajaxMessagingComponent {
+    font-size: 12px;
+    font-weight: bold;
+}
+.messageError {
+    background: url("https://github.com/TmoUP/tmobile-eit/raw/main/errorMessageGradient.png") repeat-x scroll 0 0 #fff;
+    border: 1px solid #CC3333;
+}
+
+.messageSuccess {
+    background: #ffffff url("https://github.com/TmoUP/tmobile-eit/raw/main/errorMessageGradient.png") repeat-x scroll 0 0;
+    border: 1px solid #5eb25e;
+    margin: 10px;
+}
+#successMessagingComponent a, #successMessagingComponent a:hover, #successMessagingComponent a:visited {
+    color: #333333;
+}
+.errorMessageWrapper #successMessagingComponent ul, .errorMessageWrapper #errorMessagingComponent ul {
+    position: relative;
+}
+.errorMessageWrapper {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.errorMessageWrapper #successMessagingComponent ul li.messagingIcon, .errorMessageWrapper #errorMessagingComponent ul li.messagingIcon {
+    left: 0;
+    position: absolute;
+}
+#successMessagingComponent ul li.messagingIcon, #errorMessagingComponent ul li.messagingIcon, #ajaxMessagingComponent ul li.messagingIcon, #overlayMessagingComponent ul li.messagingIcon {
+    height: 20px;
+    left: 30px;
+    margin-right: 10px;
+}
+
+.errorMessageWrapper #successMessagingComponent ul li.message, .errorMessageWrapper #errorMessagingComponent ul li.message {
+    margin-left: 30px;
+}
+#successMessagingComponent ul li.message, #errorMessagingComponent ul li.message, #ajaxMessagingComponent ul li.message, #overlayMessagingComponent ul li.message {
+    float: left;
+    margin-left: 30px;
+}
+.cobrandingImg
+{
+	float: right;
+	text-align: right;
+	margin-top: 15px;
+	margin-bottom: 7px;
+}
