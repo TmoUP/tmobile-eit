@@ -1,0 +1,551 @@
+/*********************************************************
+ * Define regular styles; don't define Color or Type
+ *********************************************************/
+
+/*********************************************************
+ * Top Level
+ *********************************************************/
+html, body {
+	height: 100%;
+}
+
+#container {
+}
+
+#innerBorder {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#browserNotSupported,#enableJavascript{
+	height: 40px; 
+	line-height: 40px; 
+	padding-left: 25px;
+}
+
+#browserNotSupported .warning,#enableJavascript .warning{
+		width:20px;
+		height:20px;
+		margin-top: 8px; 
+		margin-bottom: 12px; 
+		margin-right: 15px;
+		float:left;
+}
+/*********************************************************
+ * Header 
+ *********************************************************/
+#header #topContainerBorder{
+	height: 38px;
+}
+
+#header #innerWrapper{
+	float: left;
+    height: 62px;
+    width: 470px;
+}
+
+#header #organizationUnitWrapper {
+	margin-bottom:10px;
+}
+
+#header #organizationUnit {
+	height:28px;
+	padding-right:20px;
+	padding-left:20px;
+	text-align:center;
+}
+
+#header #organizationUnit ul li{
+	float:none;
+	line-height:27px;
+}
+
+#organizationUnit ul li div.left{
+	float:left;
+}
+
+#organizationUnit ul li div.right{
+	float:right;
+}
+
+#backToMyOrg{
+	margin-right: 5px; 
+	vertical-align: text-top; 
+	margin-top: -1px;
+}
+
+#header .headerSYMCLogo {
+	margin-left: 20px;
+}
+
+#header .headerSYMCLogo{
+	margin-top: 11px;
+	float: left;
+}
+
+.logoImage {
+    float: left;
+    margin-top: 20px;
+}
+
+#header .headerSSPLogo {
+	margin-top: 21px;
+	float: left;
+}
+#header #headerLinks {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#header ul {
+	list-style: none;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#userProfile a {
+	margin-right: 0px;
+	text-decoration: none;
+}
+
+#header #userProfileImage {
+	width: 11px;
+	height: 11px;
+}
+
+#header #userProfileDivider {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#header ul li {
+	float: left;
+	padding-right: 2px;
+}
+
+#header ul li a,#header ul li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+#header #switchOrgIcon{
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	margin-left: 10px;
+	padding-right:5px;
+	margin-bottom:3px;
+}
+
+
+#header #userProfile{
+	position: relative;
+	padding-left: 5px;
+	padding-right: 0px;
+}
+
+#header #userProfile #userProfileDropdown{
+	position: absolute;
+	display: none;
+	z-index:9999;
+}
+
+#header #userProfileDropdown #dropdownMenu{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 50px;
+}
+
+#header #userProfileDropdown #dropdownMenu #wrapper div{
+	padding-bottom: 5px;
+	padding-right: 50px;
+}
+#article {
+    min-height: 650px;
+}
+#links{
+	float:left;
+}
+
+/*********************************************************
+*BreadCrumbs
+***********************************************************/
+
+#breadcrumb{
+	clear:both;
+    height: 10px;
+    line-height: 8px;
+    margin-bottom: 24px; 
+}
+#breadcrumb ul {
+    list-style: none outside none;
+}
+#breadcrumb ul li {
+	float: left;
+	padding-right: 2px;
+	line-height: 25px;
+}
+
+/**********************************************************
+ * Navigation
+ **********************************************************/
+.nav {
+	height: 34px;
+	left: 0;
+	overflow: hidden;
+}
+
+.nav ul li {
+	float: left;
+	height: 34px;
+	-moz-box-sizing: border-box;
+	padding: 0 25px;
+}
+
+
+.nav ul li.extrawidth {
+	width: 143px;
+}
+.nav ul li.lesswidth {
+	width: 123px;
+}
+.nav ul li.lesswidthright {
+	width: 123px;
+	float: right !important;
+	background-position: left center;
+}
+.nav ul li.lesswidthright a img{
+	border-width:0;
+	vertical-align:middle;
+}
+.nav ul#navigationList li:last-child {
+	left: 714px;
+	width: 161px;
+}
+
+.nav ul li a {
+	display: block;
+	text-decoration: none !important;
+	text-align: center;
+}
+
+#loggedInHeader {
+	height: 42px;
+	left: 0;
+	overflow: hidden;
+}
+
+.loginFormFooter p{
+	padding-top: 15px;
+}
+
+/*********************************************************
+ * Footer
+ *********************************************************/
+.footer {
+    bottom: 0;
+    height: 65px;
+}
+.footer .innerfooter{
+	padding-top: 8px;
+}
+
+.footer #footerLinks {
+	float: left;
+	width: 600px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.footer #version{
+}
+#footerLinks ul li {
+	cursor: pointer;
+	display: inline;
+	margin-right: 8px;
+}
+
+#footerLinks .footerLinksPipe {
+	padding-left: 8px;
+}
+
+.footer #symantecSeal {
+	float: right;
+	margin-right: 20px;
+}
+
+.footer #symantecSeal span{
+	margin-right:20px;
+}
+
+.footer #symantecSeal span img{
+	width: 89px;
+	height: 55px;
+}
+
+.footer #symantecSeal a{
+	position:relative;
+	top:10px;
+}
+
+#mainbody{
+    float: left;
+    padding: 0 0 20px 20px;
+    width: 678px;
+}
+
+#content {
+    padding-bottom: 100px;
+}
+
+#content.authLayout {
+    margin: 0;
+    padding: 0;
+}
+
+.baseStack {
+    height: 60px;
+    margin-bottom: 15px;
+    margin-left: 185px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.stack {
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.baseStack .signInButton {
+    margin-bottom: 0;
+	margin-top: 20px;
+}
+.signInButton {
+    float: right;
+    margin-bottom: 17px;
+}
+.errorMessageWrapper {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.errorMessageWrapper #successMessagingComponent ul li.messagingIcon,.errorMessageWrapper #errorMessagingComponent ul li.messagingIcon  {
+	position: absolute;
+	left: 0px;
+}
+
+.errorMessageWrapper #successMessagingComponent ul ,.errorMessageWrapper #errorMessagingComponent ul {
+	position: relative;
+}
+
+.errorMessageWrapper #successMessagingComponent ul li.message,.errorMessageWrapper #errorMessagingComponent ul li.message {
+	margin-left:30px;
+}
+#bodycontainer{
+	padding:10px 20px 20px 20px;
+	overflow: hidden;
+}
+
+.leftSide {
+    float: left;
+    padding-top: 5px;
+    width: 132px;
+}
+
+.pwdLeftSide {
+    float: left;
+    padding-top: 5px;
+    width: 140px;
+}
+
+.rightSide {
+    float: right;
+    width: 62%;
+}
+#loginFormContainer {
+    height: 600px;
+    width: 100%;
+}
+.loginTop{
+	margin:33px 0 20px 55px;
+}
+#loginFormContainer .loginFormBox, #loginFormContainer .secondOTPBox, #loginFormContainer .secCodeBox, #loginFormContainer .credentialBox, #loginFormContainer .logoutBox {
+    margin-left: 55px;
+    width: 500px;
+}
+#loginFormContainer .loginFormHeader {
+    height: 30px;
+}
+#loginFormContainer .headerText {
+	line-height:30px;
+}
+#loginFormContainer .loginFormBody {
+    padding-bottom: 25px;
+    padding-top: 48px;
+}
+#loginFormContainer .secCodeFormBody {
+    padding-top: 15px;
+}
+#loginFormContainer .loginFormFooter {
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+#loginFormContainer .loginFormDivider {
+    background-position: center center;
+    height: 2px;
+}
+input[type="text"], input[type="password"]{
+	height:20px;
+	padding-left:4px;
+	line-height:20px;
+	-webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box;    /* Firefox, other Gecko */
+    box-sizing: content-box;         /* Opera/IE 8+ */
+    color: #333;
+}
+
+input:focus, select:focus
+{
+}
+
+select{
+	height:20px;
+	line-height:20px;
+	-webkit-box-sizing: content-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: content-box;    /* Firefox, other Gecko */
+	box-sizing: content-box;         /* Opera/IE 8+ */
+    color: #333;
+}
+
+.loginButton, .secCodeFormBody .loginButton, .loginFormBody .loginButton {
+    float: right;
+    margin-bottom: 14px;
+    margin-top: 17px;
+}
+.spaceDiv {
+    height: 10px;
+}
+
+/*********************************************************
+ * Help
+ ********************************************************/
+.cellContent{
+	float:left;
+}
+
+.helpImage{
+    float: left;
+}
+.inlineHelp {
+    float: left;
+    padding-left: 10px;
+}
+.inlineHelpContainer {
+    max-height: 325px;
+    overflow: auto;
+    width: 262px;
+    font-weight:normal;
+}
+.inlineHelpContainer p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.inlineHelpContainer::selection{
+        color: white !important;
+        background-color:blue !important;
+}
+.inlineHelpContainer::-moz-selection
+{
+        color:white !important;
+        background-color:blue !important;
+}
+.inlineHelpContainer strong::-moz-selection,  li::-moz-selection, p::-moz-selection, b::-moz-selection{
+		color: white;
+        background-color:blue;
+}
+/*********************************************************
+ * General
+ ********************************************************/
+
+input[type=search] {
+	padding-left: 7px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.defaultBorder {
+	border: 1px solid #DDDDDD;
+}
+
+.roundedCorners {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#filterContainer input[type=checkbox],#filterContainer input[type=radio]{
+	margin: 3px 7px 4px 8px;
+}
+
+.clear {
+	float: none;
+	clear: both;
+}
+button {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    cursor: pointer;
+    display: inline-block;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+}
+/**************************************************
+ * Messaging
+***************************************************/
+
+#successMessagingComponent,#errorMessagingComponent,#ajaxMessagingComponent,#overlayMessagingComponent{
+        word-wrap: break-word;
+        min-height: 20px;
+        padding: 10px;
+        margin-bottom:5px;
+}
+
+#successMessagingComponent ul li.message,#errorMessagingComponent ul li.message,#ajaxMessagingComponent ul li.message,#overlayMessagingComponent ul li.message{
+        float: left;
+        margin-left: 30px;
+}
+
+#successMessagingComponent ul li.messagingIcon,#errorMessagingComponent ul li.messagingIcon,#ajaxMessagingComponent ul li.messagingIcon,#overlayMessagingComponent ul li.messagingIcon{
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        margin: 0 15px;
+}
+
+#ajaxMessagingComponent,#overlayMessagingComponent{
+        display:none;
+}
+
+#ajaxMessagingComponent.messageError,#ajaxMessagingComponent.messageSuccess,#ajaxMessagingComponent.messageInfo{
+        display:block;
+}
+
+
+
+
+#overlayMessagingComponent.messageError,#overlayMessagingComponent.messageSuccess{
+        display:block;
+}
+#overlayMessagingComponent ul li.messagingIcon{
+        left: 40px;
+}
