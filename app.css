@@ -1,0 +1,118 @@
+body {
+    background-color: #FFFFFF;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+#errorbody {
+    font-family: arial,helvetica,sans-serif;
+}
+#mainbody {
+    font-family: arial,helvetica,sans-serif;
+}
+#mainbodyflush {
+    font-family: arial,helvetica,sans-serif;
+}
+#sidenav {
+    background-color: #F0F0F0;
+}
+#enrollsidenav {
+    background-color: #FFFFFF;
+    padding-left: 10px;
+}
+#infobar {
+    background-color: #FDFDFD;
+    border-bottom: 1px dotted #C0C0C0;
+    border-top: 1px dotted #C0C0C0;
+    color: #000000;
+    font-size: 70%;
+    font-variant: normal;
+    font-weight: normal;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+#infobar2 {
+    background-color: #FEEAC0;
+    border: 2px solid #FED681;
+    color: #444444;
+    font-size: 80%;
+    font-variant: normal;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+#infobar-normal {
+    background-color: #F0F0F0;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 2px solid #999999;
+    color: #333333;
+    font-size: 105%;
+    padding: 3px 10px 4px;
+}
+#infobar-switch {
+    background-color: #51001D;
+    border-top: 2px solid #420017;
+    color: #EBEBEB;
+    font-size: 105%;
+    padding: 3px 10px 5px;
+}
+.infobar-label {
+    padding-bottom: 0;
+    padding-right: 8px;
+    padding-top: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+.infobar-value {
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-right: 5px;
+    padding-top: 0;
+    text-align: left;
+    width: 100%;
+}
+#header {
+    background-color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: normal;
+}
+#footer {
+    background-color: #FFFFFF;
+    font-family: arial,helvetica,sans-serif;
+}
+#headerlinks {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: right;
+}
+#bannervip {
+    padding-bottom: 4px;
+    padding-left: 15px;
+}
+
+#pagebottom {
+    display: none;
+}
+#errors {
+    background-color: #FFFFEA;
+    border: 1px solid #9B0033;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.errorsbox {
+    background-color: #FFFFEA;
+    border: 1px solid #9B0033;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-variant: normal;
+    font-weight: normal;
+    overflow: hidden;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 100%;
+}
