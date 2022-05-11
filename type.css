@@ -1,0 +1,89 @@
+.header ul li{
+	line-height:25px;
+}
+
+.header{
+}
+
+#organizationTitle{
+	color: #FFF;
+}
+
+.nav li a{
+	font-size:13px;
+	font-weight:bold;
+	line-height:34px;
+}
+
+.footer #footerLinks{
+	font-size:11px;
+}
+
+#breadcrumb ul li {
+	font-size: 11px;
+}
+
+#browserNotSupported,#enableJavascript{
+	font-size:0.75em;
+	font-weight:bold;
+}
+#loginFormContainer .headerText {
+    color: #FFFFFF;
+    text-align: center;
+}
+#loginFormContainer .loginFormFooter {
+}
+.VIPCredentialBody label, .loginFormBody Label, .secCodeFormBody Label {
+    font-weight: bold;
+}
+input[type="text"], input[type="password"], textarea, select{
+	border : 1px solid #bcbcbc;
+	height: 20px;
+	font-size:12px;
+}
+input[type="checkbox"], input[type="radio"]{
+	vertical-align: middle;
+}
+
+.txtDisabled{
+	border : 1px solid #bcbcbc;
+	height: 22px;
+	background-color: #f2f2f2;
+}
+
+/**************************************************
+ * General
+***************************************************/
+
+strong{
+	font-weight:bold;
+}
+
+input[type=search] :-webkit-input-placeholder {
+	font-style: italic;
+}
+
+input[type=search] :-moz-placeholder {
+	font-style: italic;
+}
+
+input[type=search] :-ms-input-placeholder {
+	font-style: italic;
+}
+
+button{
+	font-weight:bold;
+}
+
+label.fontbold{
+	font-weight:bold;
+}
+
+#links #linkshead{
+	font-size: 12px;
+	font-weight:bold;
+}
+#successMessagingComponent, #errorMessagingComponent, #ajaxMessagingComponent {
+    font-size: 12px;
+    font-weight: bold;
+}
