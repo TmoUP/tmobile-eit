@@ -1,0 +1,293 @@
+html {
+    overflow-y: scroll;
+}
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+img a {
+	border : 0 none;
+}
+img{
+	border : 0 none;
+	vertical-align: middle;
+}
+
+#bodycontainer {
+    display: table;
+    height: auto !important;
+    min-height: 250px;
+}
+#enrollcontainer {
+    display: table;
+    height: auto !important;
+    min-height: 250px;
+    width: 880px;
+}
+#errorcontainer {
+    display: table;
+    height: auto !important;
+    min-height: 250px;
+    width: 880px;
+}
+#errorbody {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+#endbody {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+#stabilizer {
+    float: left;
+}
+#mainbody {
+    display: block;
+    text-align: left;
+}
+#mainbodyflush {
+    display: block;
+    float: left;
+    padding-left: 0;
+    padding-right: 10px;
+    text-align: left;
+    width: 640px;
+}
+#sidenav {
+    display: block;
+    float: right;
+    text-align: left;
+    width: 230px;
+}
+#infobar {
+    display: block;
+    width: 630px;
+}
+#header {
+    display: block;
+    padding: 0;
+}
+
+#footer {
+    display: block;
+    padding: 0;
+    width: 880px;
+}
+#headerlinks {
+    float: right;
+}
+#bannervip {
+    display: block;
+}
+#errors {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+#errorbanner {
+    display: block;
+    padding: 0;
+    width: 880px;
+}
+#errors-primary {
+    display: block;
+    padding: 0;
+    width: 880px;
+}
+#errors-secondary {
+    display: block;
+    padding: 0;
+    width: 878px;
+}
+#errors-inpage {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+#client-errors-inpage {
+    display: block;
+    padding: 0;
+    width: 628px;
+}
+.errorgap {
+    display: block;
+    width: 100%;
+}
+.sidenav-hilight {
+    background-color: #FFFFFF;
+    padding: 3px;
+    text-align: center;
+    width: 97%;
+}
+.sidenav-hilight-dim {
+    padding: 3px;
+    text-align: center;
+}
+.sidenav-hilight-text {
+    padding: 6px;
+    text-align: left;
+}
+.sidenav-hilight-divider {
+    font-size: 0;
+    line-height: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 8px;
+    text-align: center;
+}
+#getstarted {
+    width: 620px;
+}
+.smallselect {
+    font-size: 90%;
+}
+.helpbullet {
+    vertical-align: bottom;
+}
+.explicitlink {
+    cursor: pointer;
+}
+.explicitlinkhover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.continuous {
+    white-space: nowrap;
+}
+.imagegap {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.sortarrow {
+    padding-top: 0;
+}
+.maxwidth-wide2 {
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.maxwidth-wide3 {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.maxwidth-wider {
+    max-width: 125px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
+.fixedwidth-small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50px;
+    word-wrap: break-word;
+}
+.fixedwidth-medium {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60px;
+    word-wrap: break-word;
+}
+.fixedwidth-wide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 70px;
+    word-wrap: break-word;
+}
+.fixedwidth-wide2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90px;
+    word-wrap: break-word;
+}
+.fixedwidth-wider {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 125px;
+    word-wrap: break-word;
+}
+.fixedwidth-verywide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    word-wrap: break-word;
+}
+.fixedwidth-verywide2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 175px;
+    word-wrap: break-word;
+}
+.fixedwidth-email {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 125px;
+}
+.fixedwidth-xtrawide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 490px;
+    word-wrap: break-word;
+}
+.fixedheight-medium {
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.fixedheight-large {
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+form {
+    margin: 0;
+}
+#bodycontainer {
+    display: table-caption;
+}
+#errorcontainer {
+    display: table-caption;
+}
+#mainbodydash {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    padding-right: 0;
+    text-align: left;
+    width: 640px;
+}
+html {
+    list-style-image: none;
+}
+#bodycontainer {
+    display: table;
+}
+#errorcontainer {
+    display: table;
+}
+.tooltip {
+    background-color: #CCCCCC;
+    border: 1px solid #FFFFFF;
+    left: -2000px;
+    padding: 3px;
+    position: absolute;
+}
+.tooltip p {
+    background-color: #EDEDED;
+    color: #222222;
+    margin: 0;
+    padding: 2px 7px;
+}
+.breaklong-word {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
